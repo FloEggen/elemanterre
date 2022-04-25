@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --elemanterre-official-color: #9FC82A;
+    --elementerre-complementary-color: #E8F3C6;
+}
+
+body {
+    background-color: #fff;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    margin-top: 1%;
+    display: flex;
+    width: 90%;
+    height: 35%;
+    /* border: 2px solid red; */
+}
+
+h1 {
+    color: var(--elemanterre-official-color);
+}
+
+h2 {
+    margin-top: 5%;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--elemanterre-official-color);
+}
+
+.important {
+    color: var(--elemanterre-official-color);
+    font-weight: bold;
+}
+
+/* Site Navigation */
+.site-nav {
+    width: 60%;
+    border-radius: 5px;
+}
+  
+.site-nav ul {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+  
+.site-nav li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+  
+.site-nav a {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-bottom: none;
+}
+  
+.site-nav a:hover {
+    background-color: var(--elemanterre-official-color);
+    border-radius: 4px;
+}
+/* End Site Navigation */
+
+.logo {
+    width: 30%;
+}
+
+.img-logo {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.main-container {
+    display: flex;
+    width: 80%;
+    /* border: 2px solid blue; */
+    margin-top: 1%;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.main-section {
+    width: 50%;
+    /* border: 2px solid green; */
+    padding: 1%;
+    margin-right: 4%;
+}
+
+.goals > li {
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.home-aside {
+    width: 38%;
+    height: 90%;
+    border: 2px solid black;
+    padding: 1%;
+    background-color: var(--elementerre-complementary-color);
+    border-radius: 1rem;
+}
+
+/* Repair coffee registration form*/
+
+.rc-registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid 2px black;
+    border-radius: 1rem;
+    background-color: var(--elementerre-complementary-color);
+}
+
+.rc-registration-form > h2 {
+    margin: 0;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rc-registration-form ul {
+    margin: 0;
+    width: 90%;
+}
+
+.rc-registration-form li {
+    width: 90%;
+    margin-left: 5%;
+    list-style: square;
+}
+
+.rc-desc {
+    margin-left: 5%;
+}
+
+.rc-form-entity {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 60%;
+}
+
+.rc-form-entity > input {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid var(--elemanterre-official-color);
+    border-radius: 0.5rem;
+}
+
+.rc-form-entity > select {
+    appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 2%;
+    border: 1px solid var(--elemanterre-official-color);
+    border-radius: 0.5rem;
+}
+
+.send-object-btn {
+    border: 2px solid var(--elemanterre-official-color);
+    border-radius: 0.5rem;
+    background-color: var(--elemanterre-official-color);
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 1%;
+}
