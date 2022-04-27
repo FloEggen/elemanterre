@@ -137,6 +137,8 @@ a {
     border: solid 2px black;
     border-radius: 1rem;
     background-color: var(--elementerre-complementary-color);
+    padding-bottom: 5%;
+    padding-right: 5%;
 }
 
 .rc-registration-form > h2 {
